@@ -10,5 +10,7 @@ Inputs: 1. Text file representing a histogram of a gray-scale image
         2. contains four integers (representing the two peak points of the input bimodal histogram).
 * Bimodal histogram is a histogram that has two peaks- one for the object and one for the background. The selected threshold should be right in the middle of both peaks.
 
+There are two sets of input: set1 <data1_hist and data1_2pts> and set2 <data2_hist and data2_2pts>
+
 Outputs: a file that displays the histogram, the selected threshold value, and a 2-D display of the graph that includes: histogram points, line points and gap points between the line and the
 histogram.
